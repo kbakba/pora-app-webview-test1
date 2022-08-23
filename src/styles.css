@@ -269,7 +269,7 @@ html {
   width: 100%;
 }
 .StartPage-Background {
-  background-image: url(https://interview.pora.ai/static/media/start-page-background.b507e12af2eee470c7c0.webp);
+  background-image: url(./static/start-page-background.webp);
   background-position: bottom;
   background-size: cover;
   height: 50%;
@@ -311,15 +311,6 @@ html {
 
 .QuizPages_StaticHeader__BYEri .QuizPages_back__IQRdw {
   margin: 0 34px;
-}
-@font-face {
-  font-family: Platform LC Web Bold;
-  src: url(/static/media/Platform-Bold-Web.13ab6fff3c6bd92e01f8.woff2)
-      format("woff2"),
-    url(/static/media/Platform-Bold-Web.12b29602e288ffcf01a7.woff)
-      format("woff"),
-    url(/static/media/Platform-Bold-Web.2e1d6b11fbfd428de9a1.ttf)
-      format("truetype");
 }
 body,
 html {
