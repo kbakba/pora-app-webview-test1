@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div class="App">
+      <div style="position: relative; flex: 1 1 0%;">
+        <div
+          style="
+            opacity: 1;
+            transform: translateX(0%);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            flex: 1 1 0%;
+            display: flex;
+            flex-direction: column;
+          "
+        >
+          <div class="StartPage">
+            <div class="StartPage-Background"></div>
+            <div class="StartPage-Card">
+              <h1 class="Title Title_size_700 StartPage-Title">
+                Some header can be here
+              </h1>
+              <span
+                class="TextApi TextApi_color_secondary TextApi_size_400 StartPage-Description"
+                >some description</span
+              >
+              <div id="js-result"></div>
+              <div class="StartPage-Variants">
+                <button
+                  class="Button Button_theme_welcome Button_sizeMode_fluid StartPage-Variant"
+                  data-attr='{
+                    "event": "open_link",
+                    "params": { "url": "https://example.com" }
+                    }'
+                >
+                  Click me
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="src/index.ts"></script>
+  </body>
+</html>
