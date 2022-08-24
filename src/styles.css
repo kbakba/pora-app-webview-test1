@@ -54,6 +54,8 @@ html {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
 }
 .Button_theme_action,
 .Button_theme_actionDisabled,
@@ -91,7 +93,7 @@ html {
   line-height: 24px;
   padding: 18px 33px;
 }
-.Button_theme_welcome:hover {
+.Button_theme_welcome:active {
   background: var(--color-action-primary-hover);
 }
 .Button_size_500 {
@@ -323,7 +325,11 @@ html {
   overscroll-behavior-x: none;
   overscroll-behavior-y: none;
   width: 100%;
-  user-select: none;
+}
+* {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none
 }
 #root,
 .App {
